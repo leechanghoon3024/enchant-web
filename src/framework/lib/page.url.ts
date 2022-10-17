@@ -1,0 +1,10 @@
+export const LoginUrl = '/account/login';
+export const SignupUrl = '/account/signup';
+export const CoursesPlainUrl = '/courses';
+export const ProductPageUrl = (id: string) => `/product/${id}`;
+export const BlogPlainUrl = '/blog';
+export const BlogPageUrl = (id: string) => `/blog/${id}`;
+export const TeacherPageUrl = (id: string) => `/teacher/${id}`;
+export const CheckoutPageUrl = (id: string) => `/checkout/${id}`;
+export const OrderPageUrl = (id: string) => `/order/${id}`;
+export const AboutPlainUrl = `/about`;

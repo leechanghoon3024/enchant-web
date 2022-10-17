@@ -1,0 +1,29 @@
+.category-modal-enter {
+    opacity: 0;
+}
+.category-modal-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+.category-modal-exit {
+    opacity: 1;
+}
+.category-modal-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+
+.category-modal-mobile-enter {
+    opacity: 0;
+}
+.category-modal-mobile-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+.category-modal-mobile-exit {
+    opacity: 1;
+}
+.category-modal-mobile-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}
