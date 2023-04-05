@@ -1,12 +1,8 @@
 import { css } from '@emotion/react';
 import fonts from '@styles/font.module.css';
 
-import webflow from '@styles/webflow/webflow.module.css';
-import projectStyle from '@styles/webflow/projectStyle.module.css';
-
 export const emotionGlobal = css`
     ${fonts}
-
     body {
         font-family: GmarketSans, sans-serif;
         color: #4b5563;
